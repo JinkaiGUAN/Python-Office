@@ -40,6 +40,14 @@ class ArrayQueue:
         return answer
 
     def enqueue(self, value: Any) -> Any:
+        """Add element value into the queue.
+
+        Args:
+            value (Any): [description]
+
+        Returns:
+            Any: [description]
+        """
         if self.__size == len(self.__data):
             self._resize(2 * len(self.__data))
         avail = (self.__front + self.__size) % len(self.__data)

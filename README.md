@@ -10,7 +10,7 @@ In this branch, I will upload some data structure achievement using Python. Also
   - stacks: This folder achieved LIFO(last input first output) stacks. Now it only has array-based one.
   - queues: This folder achieved FIFO(first input first output) stacks. Noe it only has array-based one.
 
-    - deque： We won't achieve this basic data structure since its a built-in data structure. you can use the following code to get it in Python
+  - deque： We won't achieve this basic data structure since its a built-in data structure. you can use the following code to get it in Python
   
   ```python
   from collections import deque

@@ -1,4 +1,4 @@
-from typing import Type
+from typing import Any, Type
 from doubly_linkedlist import DoublyLinkedList
 from singly_linkedlist import Node
 from doubly_linkedlist import Node2
@@ -6,12 +6,18 @@ from doubly_linkedlist import Node2
 
 class Position:
     """An abstraction representing the location of a single element."""
-    def __init__(self, container=None, node: Node2=None) -> None:
+    def __init__(self, container=None, node: Any=None) -> None:
+        """[summary]
+
+        Args:
+            container ([type], optional): [description]. Defaults to None.
+            node (Any, optional): node can be any kinds of basic class. Defaults to None.
+        """
         self.container = container
         self.node = node
-
+    
     def element(self):
-        return self.node.value
+        return self.node
 
     def value(self):
         return self.node.value

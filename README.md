@@ -21,3 +21,8 @@ In this branch, I will upload some data structure achievement using Python. Also
   - doubly_linkedlist: Develop the base doubly linked list.
   - positional_list_ADT: Inherent the doubly linked list to build a new list that using position to get the element.
 
+- 3-Trees： Non-linear data structure.
+    - Edge: An edge of tree T is a pair of nodes (u, v) such that u is the parent of v, or vice versa.
+    - Path: A path of T is a sequence of nodes such that any two o=consecutive nodes in the sequence from an edge
+    - **Ordered Trees**: A tree is ordered if there is a meaningful linear order among the children of each node; that is, we purposefully identify the children of a node as being the first, second, third, and so on. Such an order is usually visualized by arranging siblings left to right, according to their order.
+

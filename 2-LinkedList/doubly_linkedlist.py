@@ -1,6 +1,3 @@
-from singly_linkedlist import Node
-
-
 class Node2:
     def __init__(self, value, prev=None, next=None) -> None:
         self.value = value
@@ -73,10 +70,3 @@ class LinkedDeque(DoublyLinkedList):
         if self.is_empty():
             raise Exception('Empty queue!')
         self._delete_node(self.trailer.prev)
-
-    
-
-    
-    
-    
-

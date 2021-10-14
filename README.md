@@ -17,5 +17,7 @@ In this branch, I will upload some data structure achievement using Python. Also
   ```
 - [2-LinkedList](https://github.com/JinkaiGUAN/Python-Office/tree/DataStructure/2-LinkedList): We are going to use linked list to build other kinds of data structure. The content are as follows,
   - singly_linkedlist: We achieved stack and queue using singly likedlist, which the time complexity in the wrost case can be `O(1)`, and the space complexity is `O(n)`, where n is the number of elements that the data structure stores.
-
+  - circularly_linkedlist: Using singly linkedlist to develop circular Queue.
+  - doubly_linkedlist: Develop the base doubly linked list.
+  - positional_list_ADT: Inherent the doubly linked list to build a new list that using position to get the element.
 

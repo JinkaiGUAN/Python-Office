@@ -85,25 +85,25 @@ A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’,
 
         - Searching order: The root of tree T is visited first and then the subtrees rooted at its children are traversed recursively. If the tree is ordered, then the subtrees are traversed according to the order of the children. 
 
-            ![image-20211015204217724](.\asserts\image-20211015204217724.png)
+            ![image-20211015204217724](./asserts/image-20211015204217724.png)
 
     - **Postorder traversal**:
 
         - In some sense, this algorithm can be viewed as the opposite of the preorder traversal, because it recursively traverses the subtrees rooted at the children of the root first, and then visits the root. 
 
-            ![image-20211015204310955](.\asserts\image-20211015204310955.png)
+            ![image-20211015204310955](./asserts/image-20211015204310955.png)
 
 2. **Breadth-First Tree Traversal**
 
     This approach is to traverse a tree so that we visit all the positions at the depth `d` before we visit the positions at depth `d+1`. Such an algorithm is known as a **breadth-first traversal** , also known as **BFS (breadth-first searching)**.
 
-    ![image-20211015204910536](.\asserts\image-20211015204910536.png)
+    ![image-20211015204910536](./asserts/image-20211015204910536.png)
 
 
 
 ​		The algorithm is as follow:
 
-​		![image-20211015205102131](.\asserts\image-20211015205102131.png)	
+​		![image-20211015205102131](./asserts/image-20211015205102131.png)	
 
 ​		The time complexity of this algorithm is $O(n)$, due to the n calls to enqueue and n calls to dequeue.
 
@@ -111,9 +111,9 @@ A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’,
 
     Indeed, for every position p, the inorder traversal visits p after all the positions in the left subtree of p and before all the positions in the right subtree of p.
 
-    ![image-20211015210122389](.\asserts\image-20211015210122389.png)
+    ![image-20211015210122389](./asserts/image-20211015210122389.png)
 
-    ![image-20211015210141065](.\asserts\image-20211015210141065.png)
+    ![image-20211015210141065](./asserts/image-20211015210141065.png)
 
     ---
 
@@ -127,7 +127,7 @@ A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’,
 
     - Elements stored in the right subtree of p (if any) are greater than e(p)
 
-        ![image-20211015210534492](.\asserts\image-20211015210534492.png)
+        ![image-20211015210534492](./asserts/image-20211015210534492.png)
 
     ****
 

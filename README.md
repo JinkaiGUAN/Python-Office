@@ -1,4 +1,5 @@
 # Python-Office
+
 This repository will store small projects using python. 
 
 In this branch, I will upload some data structure achievement using Python. Also simple Algorithm will be shown here.
@@ -31,7 +32,7 @@ We are going to use linked list to build other kinds of data structure. The cont
 - doubly_linkedlist: Develop the base doubly linked list.
 - positional_list_ADT: Inherent the doubly linked list to build a new list that using position to get the element.
 
-### 3-Trees： Non-linear data structure.
+### [3-Trees： Non-linear data structure](https://github.com/JinkaiGUAN/Python-Office/tree/DataStructure/3-Trees)
 
 #### Basic Definitions
 
@@ -71,4 +72,62 @@ A binary tree is an ordered tree.
 - A node r, called the root of T, that stores an element.
 - A binary tree (possibly empty), called the left subtree of T.
 - A binary tree (possibly empty), called the right subtree of T.
+
+#### Tree Traversal Algorithms
+
+A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’, all the positions of T.
+
+------
+
+1. **Preorder and Postorder Traversals of General Trees**
+
+    - **Preorder traversal**:
+
+        - Searching order: The root of tree T is visited first and then the subtrees rooted at its children are traversed recursively. If the tree is ordered, then the subtrees are traversed according to the order of the children. 
+
+            ![image-20211015204217724](.\asserts\image-20211015204217724.png)
+
+    - **Postorder traversal**:
+
+        - In some sense, this algorithm can be viewed as the opposite of the preorder traversal, because it recursively traverses the subtrees rooted at the children of the root first, and then visits the root. 
+
+            ![image-20211015204310955](.\asserts\image-20211015204310955.png)
+
+2. **Breadth-First Tree Traversal**
+
+    This approach is to traverse a tree so that we visit all the positions at the depth `d` before we visit the positions at depth `d+1`. Such an algorithm is known as a **breadth-first traversal** , also known as **BFS (breadth-first searching)**.
+
+    ![image-20211015204910536](.\asserts\image-20211015204910536.png)
+
+
+
+​		The algorithm is as follow:
+
+​		![image-20211015205102131](.\asserts\image-20211015205102131.png)	
+
+​		The time complexity of this algorithm is $O(n)$, due to the n calls to enqueue and n calls to dequeue.
+
+3. **Inorder Traversal of a Binary Tree**
+
+    Indeed, for every position p, the inorder traversal visits p after all the positions in the left subtree of p and before all the positions in the right subtree of p.
+
+    ![image-20211015210122389](.\asserts\image-20211015210122389.png)
+
+    ![image-20211015210141065](.\asserts\image-20211015210141065.png)
+
+    ---
+
+    **Binary Search Tree**
+
+    A binary search tree for S is a binary tree T such that, for each position p of T:
+
+    - Position p stores an element of S, denotes as $e(p)$.
+
+    - Elements stored in the left subtree of p (if any) are less than e(p).
+
+    - Elements stored in the right subtree of p (if any) are greater than e(p)
+
+        ![image-20211015210534492](.\asserts\image-20211015210534492.png)
+
+    ****
 

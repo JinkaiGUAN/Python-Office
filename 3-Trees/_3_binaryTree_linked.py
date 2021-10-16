@@ -7,11 +7,12 @@
 @Date    : 15/10/2021 17:26 
 @Brief   : 
 """
-from typing import Union
 from abc import ABC
+from collections import deque
+from typing import Union
 
-from _2_binaryTree_base import BinaryTree
 import _2_binaryTree_base
+from _2_binaryTree_base import BinaryTree
 
 
 class Node:
@@ -174,3 +175,71 @@ class LinkedBinaryTree(BinaryTree, ABC):
             t2._root = None
             t2._size = 0
 
+    def __iter__(self):
+        """Generate an iteration of the tree's elements."""
+        for p in self.position():
+            yield p.element()
+
+    from typing import Iterator
+
+    def position(self) -> Iterator[Position]:
+        """Generates an iteration of the tree's positions."""
+        return self.preorder()
+
+    def preorder(self) -> Iterator[Position]:
+        """Generate a preorder iteration of positions in the tree."""
+        if not self.is_empty():
+            for p in self._subtree_preorder(self.root()):
+                yield p
+
+    def _subtree_preorder(self, p: Position) -> Iterator[Position]:
+        """Generate a preorder iteration of positions in subtree rooted at p."""
+        yield p
+        for c in self.children(p):
+            for other in self._subtree_preorder(c):
+                yield other
+
+    def postorder(self) -> Iterator[Position]:
+        """Generate a postorder iteration of positions in the tree."""
+        if not self.is_empty():
+            for p in self._subtree_postorder(self.root()):
+                yield p
+
+    def _subtree_postorder(self, p: Position) -> Iterator[Position]:
+        """Generate a postorder iteration of positions in subtree rooted at p."""
+        for c in self.children(p):
+            for other in self._subtree_postorder(c):
+                yield other
+
+        yield p
+
+    def inorder(self) -> Iterator[Position]:
+        """Generate a inorder iteration of positions in the tree.
+
+        Notes: Please be careful to define this method since such a method can only be used in the binary tree class.
+        """
+        if not self.is_empty():
+            for p in self._subtree_inorder(self.root()):
+                yield p
+
+    def _subtree_inorder(self, p: Position) -> Iterator[Position]:
+        """Generate an inorder iteration of positions in subtree rooted at p."""
+        if self.left(p):
+            for other in self._subtree_inorder(self.left(p)):
+                yield other
+        yield p
+        if self.right(p):
+            for other in self._subtree_inorder(self.right(p)):
+                yield other
+
+    def bfs(self) -> Iterator[Position]:
+        """Generate a breadth-first iteration of the positions of the tree."""
+        if not self.is_empty():
+            fringe = deque()
+            fringe.append(self.root())
+            while not len(fringe) == 0:
+                p = fringe.popleft()
+                yield p
+
+                for c in self.children(p):
+                    fringe.append(c)

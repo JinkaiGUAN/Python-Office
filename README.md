@@ -131,3 +131,16 @@ A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’,
 
     ****
 
+
+
+### [4-PriorityQueues]
+
+#### Priority Queue
+
+Priority queue is a collection of prioritized elements that allows arbitrary element insertion, and allows the removal of the element that has first priority. When the element is added to a priority queue, the user designates its priority by providing and associated **key**.
+
+#### Heaps
+
+ 
+
+ 

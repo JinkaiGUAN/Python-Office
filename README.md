@@ -141,6 +141,19 @@ Priority queue is a collection of prioritized elements that allows arbitrary ele
 
 #### Heaps
 
- 
+ This data structure allows us to perform both insertions and removals in logarithmic time.
 
- 
+A heap is a binary tree T that stores a collection of items at its positions and that satisfies two additional properties: a relational property defined in terms of the way keys are stored in T and a structural property defined in terms of the shape of T itself. 
+
+**Heap-order Property** : In a heap T, for a given position p other than the root, the key stored at p is greater than or equal to the key stored at p’s parent.
+
+ ![image-20211018091710095](./asserts/image-20211018091710095.png)
+
+**Complete Binary Tree Property**: A heap T with height h is a **complete** binary tree if levels 0, 1, 2, …, h-1 of T have the maximum number of nodes possible and the remaining nodes at level h reside in the leftmost possible positions at that level. (The above figure is also a complete binary tree.)
+
+**Height**: for a given complete binary tree, we have, 
+$$
+h = \lfloor \log n \rfloor
+$$
+
+

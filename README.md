@@ -133,7 +133,7 @@ A **traversal** of a tree T is a systematic way of accessing, or ‘visiting’,
 
 
 
-### [4-PriorityQueues]
+### [4-PriorityQueues](https://github.com/JinkaiGUAN/Python-Office/tree/DataStructure/4-PriorityQueues)
 
 #### Priority Queue
 
@@ -156,7 +156,7 @@ $$
 h = \lfloor \log n \rfloor
 $$
 
-### [5-Maps_HashTables_SkipLists]
+### [5-Maps_HashTables_SkipLists](https://github.com/JinkaiGUAN/Python-Office/tree/DataStructure/5-Maps_HashTables_SkipLists)
 
 #### Maps and Dictionaries
 

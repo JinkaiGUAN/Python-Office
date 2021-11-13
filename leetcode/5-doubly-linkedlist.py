@@ -26,17 +26,16 @@ class MyLinkedList:
         while curr_node:
             if ind == index:
                 return curr_node.val
+            ind += 1
             curr_node = curr_node.next
         
         return -1 # beyond the elemnt bumber we have
 
     def addAtHead(self, val: int) -> None:
         self.addAtIndex(0, val)
-        self.size += 1
 
     def addAtTail(self, val: int) -> None:
-        self.addAtIndex(self.size - 1, val)
-        self.size += 1
+        self.addAtIndex(self.size, val)
 
     def addAtIndex(self, index: int, val: int) -> None:
         new_node = Node(val)
@@ -56,6 +55,9 @@ class MyLinkedList:
                 # update the size
                 self.size += 1
                 break
+            
+            # update the index and current node
+            ind += 1
             curr_node = curr_node.next
 
     def deleteAtIndex(self, index: int) -> None:
@@ -73,24 +75,28 @@ class MyLinkedList:
 
                 self.size -= 1
                 break
+
+            ind += 1
             curr_node = curr_node.next
 
     def printLinkedList(self):
         
         curr_node = self.head.next
 
-        while curr_node.next: # if we get the tailer, terminate
+        while curr_node.next.next: # if we get the previous node of the tailer, terminate
             print(str(curr_node.val) + ' -> ', end='')
             curr_node = curr_node.next
-        
+        print(str(curr_node.val))
         print("done")
 
 
 linkedList =  MyLinkedList();
-# linkedList.addAtHead(1)
-# linkedList.addAtTail(3)
-linkedList.addAtIndex(0,2)  #//链表变为1-> 2-> 3
+linkedList.addAtHead(1)
+linkedList.addAtTail(3)
 linkedList.printLinkedList()
-# linkedList.get(1)            #//返回2
-# linkedList.deleteAtIndex(1)  #//现在链表是1-> 3
-# linkedList.get(1)
+linkedList.addAtIndex(0,2)  #//链表变为 2-> 1 -> 3   1-> 2-> 3
+linkedList.printLinkedList()
+print(linkedList.get(1))            #//返回1
+linkedList.deleteAtIndex(1)  #//现在链表是2-> 3
+linkedList.printLinkedList()
+print(linkedList.get(1))

@@ -100,3 +100,4 @@ print(linkedList.get(1))            #//返回1
 linkedList.deleteAtIndex(1)  #//现在链表是2-> 3
 linkedList.printLinkedList()
 print(linkedList.get(1))
+

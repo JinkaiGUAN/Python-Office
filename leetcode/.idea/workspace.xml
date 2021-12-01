@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14aec1b-033c-4f4a-b10a-d2ee7744b52f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-hashSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-hashMapping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.12-hashSet">
     <configuration name="12-hashSet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -109,7 +107,8 @@
       <updated>1636662765564</updated>
       <workItem from="1636662767960" duration="203000" />
       <workItem from="1637013588914" duration="2000" />
-      <workItem from="1638225380285" duration="3140000" />
+      <workItem from="1638225380285" duration="3873000" />
+      <workItem from="1638393619824" duration="1084000" />
     </task>
     <servers />
   </component>
@@ -126,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

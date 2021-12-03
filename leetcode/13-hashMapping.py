@@ -41,7 +41,14 @@ class MyHashMap:
 
     def remove(self, key: int) -> None:
         hash_key = self._hash_(key)
-        for i, item in enumerate(self.table[hash_key]):
+        for i, item in enumerate(self.table[self._hash_(key)]):
             if item[0] == key:
                 self.table[hash_key].pop(i)
                 return
+
+# Your MyHashMap object will be instantiated and called as such:
+key, value = 1, 2
+obj = MyHashMap()
+obj.put(key, value)
+param_2 = obj.get(key)
+obj.remove(key)

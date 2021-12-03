@@ -21,7 +21,7 @@ class Solution:
 
             while left <= right:
                 mid = (left + right) // 2
-                if (nums[mid] > target or (lower and (nums[mid] >= target))):
+                if nums[mid] > target or (lower and (nums[mid] >= target)):
                     right = mid - 1
                     ans = mid if lower else mid - 1
                 else:
@@ -34,7 +34,7 @@ class Solution:
         left_idx = binary_search(nums, target, True)
         right_idx = binary_search(nums, target, False)
 
-        if left_idx <= right_idx and right_idx < len(nums) and nums[left_idx] == target and nums[right_idx] == target:
+        if left_idx <= right_idx < len(nums) and nums[left_idx] == target and nums[right_idx] == target:
             return [left_idx, right_idx]
         return [-1, -1]
 

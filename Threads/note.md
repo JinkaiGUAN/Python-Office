@@ -1,4 +1,5 @@
 
+# Thread
 ## Two ways run a Python file based on CPython
 - CPython parses and compiles the source text into bytecode.
 - CPython runs the bytecode using a stack-based interpreter.
@@ -15,3 +16,10 @@
 ## Questions:
 - What's the thread?
 - Using thread to complete the parallel task is reasonable or not?
+
+# Using Lock to Prevent Data Races in Threads
+
+
+# Using Queue to Fulfill the Parallelism
+## Problems when using parallelism
+- 

@@ -21,5 +21,8 @@
 
 
 # Using Queue to Fulfill the Parallelism
+
 ## Problems when using parallelism
-- 
+- Need refactoring the code using lock. 
+
+## What is the difference between `queue.Queue` and `collections.deque`

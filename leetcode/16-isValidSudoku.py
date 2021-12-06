@@ -19,14 +19,12 @@ class Solution:
         for row in board:
             new_strs = transfer_list(row)
             if len(set(new_strs)) != len(new_strs):
-                print(new_strs)
                 return False
 
         # Check column of the board
         for i in range(len(board[0])):
             column_strs = transfer_list([s[i] for s in board])
             if len(set(column_strs)) != len(column_strs):
-                print(column_strs)
                 return False
 
         # Check the window
@@ -40,11 +38,8 @@ class Solution:
                 # Note: Here we do not need to think about the IndexError problem, since IndexError can occur when we
                 # retrieve a certain value, while if we slice a list, it would noy and return a blank list instead
                 slide_window = [row[index_j: (j + 1) * 3] for row in board[index_i: (i + 1) * 3]]
-
-                print(slide_window)
                 square_strs = transfer_list([''.join(row) for row in slide_window])
                 if len(set(square_strs)) != len(square_strs):
-                    print(square_strs)
                     return False
 
         return True

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14aec1b-033c-4f4a-b10a-d2ee7744b52f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17-迭代构造二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-traversalMethodsForBinaryTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-isValidSudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/16-isValidSudoku.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17-迭代构造二叉树.py" beforeDir="false" afterPath="$PROJECT_DIR$/17-迭代构造二叉树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,8 @@
       <workItem from="1638563524472" duration="1538000" />
       <workItem from="1638610339961" duration="2392000" />
       <workItem from="1638633892695" duration="36000" />
-      <workItem from="1638791516853" duration="428000" />
+      <workItem from="1638791516853" duration="524000" />
+      <workItem from="1638869935466" duration="2661000" />
     </task>
     <servers />
   </component>
@@ -201,17 +202,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/17-迭代构造二叉树.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$17_.coverage" NAME="17-迭代构造二叉树 Coverage Results" MODIFIED="1638791740415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

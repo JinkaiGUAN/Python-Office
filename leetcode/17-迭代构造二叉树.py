@@ -5,7 +5,7 @@
 @IDE     : PyCharm 
 @Author  : Peter
 @Date    : 06/12/2021 11:52 
-@Brief   : 使用前序和中序便利结构构造二叉树
+@Brief   : 使用前序和中序遍历结构构造二叉树
 """
 
 from typing import List

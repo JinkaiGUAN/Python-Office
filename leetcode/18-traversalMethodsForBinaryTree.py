@@ -8,6 +8,9 @@
 @Brief   : This files gives several sorts of methods to traverse a tree.
 """
 
+from typing import List
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -138,8 +141,6 @@ class Depth:
         return count
 
 
-from typing import List
-
 class AllRoutes:
     def solution(self, node: TreeNode) -> List:
         if not node.left and not node.right:
@@ -151,9 +152,3 @@ class AllRoutes:
             right = [str(node.val) + x for x in self.solution(node.right)]
 
         return left + right
-
-
-
-
-
-

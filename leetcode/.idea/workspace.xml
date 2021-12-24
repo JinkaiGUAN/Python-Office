@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e14aec1b-033c-4f4a-b10a-d2ee7744b52f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23-大礼包.py" beforeDir="false" afterPath="$PROJECT_DIR$/23-大礼包.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="20mvpj5ZXfvuDyRaCEs9Mx5cEIG" />
@@ -188,6 +192,7 @@
       <workItem from="1640021502086" duration="5226000" />
       <workItem from="1640201584662" duration="2036000" />
       <workItem from="1640288394182" duration="8028000" />
+      <workItem from="1640345197855" duration="496000" />
     </task>
     <servers />
   </component>
@@ -199,7 +204,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

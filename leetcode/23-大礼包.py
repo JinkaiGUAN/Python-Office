@@ -23,10 +23,10 @@ class Solution:
             if sum(sp[:-1]) > 0 and sum(sp[i] * price[i] for i in range(n)) > sp[-1]:
                 filter_special.append(sp)
 
-        @lru_cache(None)
+        @lru_cache(None)  # least recently used
         def dfs(cur_needs: Tuple[int, ...]) -> int:
             # Calculate the minimum price without using any specials
-            min_price = sum(need * price[i] for i, need in enumerate(needs))
+            min_price = sum(need * price[i] for i, need in enumerate(cur_needs))
 
             for cur_special in filter_special:
                 special_price = cur_special[-1]

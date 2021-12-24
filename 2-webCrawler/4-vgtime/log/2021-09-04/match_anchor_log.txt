@@ -1,0 +1,39 @@
+Time: 	2021-09-04 13:04:34	There is no platforms for Index = 8 with Name = 198X
+Time: 	2021-09-04 13:04:34	There is no platforms for Index = 12 with Name = 3 out of 10
+Time: 	2021-09-04 13:04:34	There is no platforms for Index = 42 with Name = Ace Combat 6: Fires of Liberation
+Time: 	2021-09-04 13:04:34	There is no platforms for Index = 50 with Name = AE Lucky Fishing
+Time: 	2021-09-04 13:04:34	There is no platforms for Index = 64 with Name = AI-LIMIT
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 72 with Name = AKIBA'S TRIP
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 74 with Name = AKIBA'S TRIP ファーストメモリー
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 86 with Name = 獣王記 -PROJECT ALTERED BEAST-
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 107 with Name = Angelique Luminarise
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 105 with Name = Ancient Abyss
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 113 with Name = あつまれ どうぶつの森
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 114 with Name = どうぶつの森 ポケットキャンプ
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 116 with Name = ANNO: Mutationem
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 119 with Name = ANONYMOUS;CODE
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 121 with Name = アナザーエデン 時空を超える猫
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 126 with Name = Ape Out
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 128 with Name = Grisaia no Rakuen: Le Eden De La Grisaia
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 134 with Name = アークオブアルケミスト
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 136 with Name = ARK II
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 140 with Name = ARMS
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 146 with Name = Artifact Adventure Gaiden DX
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 155 with Name = マグラムロード
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 159 with Name = Assassin's Creed II: Discovery
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 175 with Name = ASTRAL CHAIN
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 194 with Name = Atomic Heart
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 195 with Name = A-Train All Aboard! Tourism
+Time: 	2021-09-04 13:04:35	There is no platforms for Index = 209 with Name = Azito x Tatsunoko Legends
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 213 with Name = Azure Striker Gunvolt: Striker Pack
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 215 with Name = Azure Striker Gunvolt: Striker Pack
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 221 with Name = Baldur's Gate 3
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 255 with Name = Battletoads
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 257 with Name = Bayonetta 2
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 258 with Name = Bayonetta 2
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 265 with Name = Beholder2
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 266 with Name = Beholder2
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 277 with Name = Beyond Good & Evil 2
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 289 with Name = Nintendo Labo
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 295 with Name = Black Future’88
+Time: 	2021-09-04 13:04:36	There is no platforms for Index = 297 with Name = Black Witchcraft

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/jobs51/data.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/jobs51/data/jobs51-算法.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/requests_spider/jobs51-数据分析.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/requests_spider/jobs51-深度学习.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/requests_spider/jobs51.csv" charset="GBK" />
+  </component>
+</project>

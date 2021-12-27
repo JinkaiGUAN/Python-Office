@@ -95,4 +95,4 @@ class Solution2Easier:
 
 
 if __name__ == '__main__':
-    print(Solution2().sumSubarrayMins([3, 1, 2, 4]))
+    print(Solution2Easier().sumSubarrayMins([3, 1, 2, 4]))

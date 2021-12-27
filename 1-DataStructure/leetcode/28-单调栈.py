@@ -33,5 +33,28 @@ private static int[] nextGreaterElement(int[] nums) {
         return res;
 }
 """
+from typing import List
+
+
+class Solution:
+    def non_increasing_stack(self, nums: List[int]):
+        n = len(nums)
+        stack = []
+
+        res = [0] * n
+
+        # 寻找左边界第一个小于i下标的值
+        for i in range(n):
+            while stack and nums[stack[-1]] > nums[i]:
+                stack.pop()
+            if not stack:
+                # 向左查找， 都比当前元素大， 只能为-1
+                res[i] = -1
+            else:
+                res[i] = stack[-1]
+            stack.append(i)
+
+
+
 
 

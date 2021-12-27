@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6135c7cd-061d-42a8-815b-d0c69864ca6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/28-单调栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/27-子数组的最小值之和.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/26-LRU_buffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/26-LRU_buffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/28-单调栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/28-单调栈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-webCrawler/5-proxy_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../2-webCrawler/5-proxy_pool" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SoftwareDevelopmentPython\8-PythonProjects\1-DataStructure\leetcode" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="27-子数组的最小值之和" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -75,6 +77,7 @@
       <updated>1640470450441</updated>
       <workItem from="1640470452575" duration="4181000" />
       <workItem from="1640536365625" duration="4416000" />
+      <workItem from="1640642482062" duration="619000" />
     </task>
     <servers />
   </component>

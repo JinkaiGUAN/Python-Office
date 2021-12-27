@@ -87,7 +87,7 @@ class LRUCacheLinkedList:
         # move node to the head
         self.move_to_head(node)
 
-        return node.key
+        return node.val
 
     def put(self, key: int, value: int) -> None:
         """If key exist, update its value. Otherwise add the new key and its value. If the total length of the buffer

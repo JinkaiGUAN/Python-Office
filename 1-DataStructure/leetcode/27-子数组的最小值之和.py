@@ -91,8 +91,10 @@ class Solution2Easier:
         for i in range(n):
             ans += (i - left[i]) * (right[i] - i) * A[i]
 
+
+
         return ans % self.MOD
 
 
 if __name__ == '__main__':
-    print(Solution2Easier().sumSubarrayMins([3, 1, 2, 4]))
+    print(Solution2Easier().sumSubarrayMins([71, 55, 82, 55]))
